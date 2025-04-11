@@ -1,0 +1,25 @@
+to run project
+
+reactjs/
+   >npm start
+
+backend/
+   >python chat.py
+   
+   >python app.py
+
+   >python disped.py
+
+INSTALL XAMPP and run below
+
+   >python search.py
+
+
+
+START MySQL and Apache Sever on XAMPP
+nodejs/
+   >node server.js
+
+
+  
+  

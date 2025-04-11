@@ -1,0 +1,165 @@
+.report-analyzer-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.upload-form {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #34495e;
+}
+
+.file-type-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+}
+
+.file-input-label {
+  display: block;
+  width: 95%;
+  padding: 10px;
+  background-color: #e9ecef;
+  border: 1px dashed #6c757d;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.file-input-label:hover {
+  background-color: #dee2e6;
+}
+
+.file-input {
+  display: none;
+}
+
+.analyze-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.analyze-button:hover {
+  background-color: #2980b9;
+}
+
+.analyze-button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+.analysis-result {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.analysis-result h3 {
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.result-content {
+  min-height: 100px;
+}
+
+.no-result {
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+.error-message {
+  color: #e74c3c;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #fadbd8;
+  border-radius: 4px;
+}
+
+.loading-spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 480px) {
+  .report-analyzer-container {
+    padding: 10px;
+  }
+
+  .upload-form,
+  .analysis-result {
+    padding: 15px;
+  }
+}
+
+.result-section {
+    margin-bottom: 20px;
+  }
+  
+  .result-section h4 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+  }
+  textarea {
+    width: 95%;
+    min-height: 80px; /* Minimum height */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #f8f9fa;
+    resize: vertical; /* Allow vertical resizing */
+    overflow: hidden; /* Hide scrollbar */
+  }
+  

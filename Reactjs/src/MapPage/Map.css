@@ -1,0 +1,331 @@
+/* ========== CSS VARIABLES ========== */
+:root {
+  /* Colors */
+  --primary-color: #3498db;
+  --primary-dark: #2980b9;
+  --secondary-color: #2ecc71;
+  --accent-color: #e74c3c;
+  --dark-bg: #2c3e50;
+  --light-bg: #f8f9fa;
+  --text-light: #ecf0f1;
+  --text-dark: #34495e;
+  /* Shadows */
+  --shadow-sm: 0 2px 5px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.15);
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  /* Border Radius */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+}
+/* ========== BASE STYLES ========== */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--light-bg);
+  color: var(--text-dark);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* ========== SIDEBAR STYLES ========== */
+.sidebar {
+  position: fixed;
+  top: 60px;
+  left: -450px;
+  width: 450px;
+  height: calc(100vh - 60px);
+  background: linear-gradient(135deg, var(--dark-bg), #1a2a3a);
+  color: var(--text-light);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-lg);
+  transition: all var(--transition-normal);
+  overflow-y: auto;
+  z-index: 1000;
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary-color) transparent;
+}
+.sidebar.open {
+  left: 0;
+}
+.sidebar:not(.open) {
+  width: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.sidebar h2 {
+  margin-top: var(--spacing-sm);
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--text-light);
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: var(--spacing-sm);
+  margin-bottom: var(--spacing-lg);
+  text-align: center;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sidebar ul li {
+  margin-bottom: var(--spacing-lg);
+  padding: var(--spacing-md);
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: var(--border-radius-md);
+  border-left: 4px solid transparent;
+  transition: all var(--transition-fast);
+}
+.sidebar ul li:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-left-color: var(--primary-color);
+  transform: translateX(5px);
+}
+.sidebar ul li h3 {
+  font-size: 1.125rem;
+  margin: 0 0 var(--spacing-sm) 0;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.sidebar ul li p {
+  font-size: 0.875rem;
+  margin: var(--spacing-xs) 0;
+  line-height: 1.5;
+}
+.sidebar ul li button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  margin-top: var(--spacing-sm);
+  font-weight: 500;
+  transition: all var(--transition-fast);
+  display: block;
+  width: 100%;
+}
+.sidebar ul li button:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+/* ========== TOGGLE BUTTON STYLES ========== */
+.sidebar-toggle {
+  position: fixed;
+  top: 50px;
+  left: 20px;
+  z-index: 1001;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  box-shadow: var(--shadow-md);
+  transition: all var(--transition-normal);
+  backdrop-filter: blur(8px);
+}
+.sidebar-toggle:hover {
+  background-color: var(--primary-dark);
+  transform: scale(1.05);
+}
+.sidebar-toggle.move {
+  left: 450px;
+  background-color: var(--accent-color);
+}
+/* ========== MAIN CONTENT STYLES ========== */
+.main-content {
+  transition: margin-left var(--transition-normal);
+  height: 100vh;
+  position: relative;
+}
+.main-content.shrink {
+  margin-left: 450px;
+}
+/* ========== SELECTION CONTAINER STYLES ========== */
+.selection-container {
+  position: absolute;
+  top: 70px;
+  right: 350px;
+  z-index: 1000;
+  display: flex;
+  gap: var(--spacing-md);
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-md);
+  backdrop-filter: blur(10px);
+  transition: all var(--transition-normal);
+}
+.selection-container:hover {
+  box-shadow: var(--shadow-lg);
+}
+.selection-container select {
+  padding: var(--spacing-sm) var(--spacing-md);
+  font-size: 0.875rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: var(--border-radius-sm);
+  background-color: white;
+  color: var(--text-dark);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  min-width: 150px;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232c3e50' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 15px;
+  padding-right: 30px;
+}
+.selection-container select:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+  outline: none;
+}
+.selection-container select:hover {
+  border-color: var(--primary-color);
+}
+/* ========== MAP CONTAINER STYLES ========== */
+.map-container {
+  height: 100vh;
+  width: 100%;
+  transition: all var(--transition-normal);
+}
+/* ========== LEAFLET CUSTOM STYLES ========== */
+
+/* ========== LEAFLET ZOOM CONTROL STYLES ========== */
+.leaflet-control-zoom {
+  position: absolute;
+  top: 10px; /* Adjust top position as needed */
+  right: 10px; /* Adjust right position as needed */
+  left: auto !important; /* Override default left positioning */
+  margin: 0 !important; /* Remove default margin */
+  border-radius: var(--border-radius-md) !important;
+  box-shadow: var(--shadow-md) !important;
+  overflow: hidden;
+}
+
+.leaflet-control-zoom a {
+  background-color: white !important;
+  color: var(--text-dark) !important;
+  width: 36px !important;
+  height: 36px !important;
+  line-height: 36px !important;
+  font-size: 1.125rem !important;
+  font-weight: bold !important;
+  transition: all var(--transition-fast) !important;
+}
+
+.leaflet-control-zoom a:hover {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+.leaflet-control-attribution {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  padding: var(--spacing-xs) var(--spacing-sm) !important;
+  border-radius: var(--border-radius-sm) !important;
+  font-size: 0.6875rem !important;
+  backdrop-filter: blur(5px);
+}
+/* ========== POPUP STYLES ========== */
+.leaflet-popup-content-wrapper {
+  background-color: white;
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-lg);
+  padding: 0;
+  overflow: hidden;
+  width: 300px;
+  max-width: 100%;
+}
+.leaflet-popup-content {
+  margin: 0;
+  width: 100% !important;
+  padding: 0;
+}
+.leaflet-popup-content img {
+  width: 100% !important;
+  height: 180px !important;
+  object-fit: cover;
+  border-bottom: 3px solid var(--primary-color);
+}
+.leaflet-popup-content h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin: var(--spacing-md) var(--spacing-md) var(--spacing-sm) var(--spacing-md) !important;
+}
+.leaflet-popup-content p {
+  margin: var(--spacing-xs) var(--spacing-md) !important;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: var(--text-dark);
+}
+.leaflet-popup-content p span {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-right: var(--spacing-xs);
+}
+.leaflet-popup-close-button {
+  color: white !important;
+  background-color: var(--accent-color) !important;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  font-size: 1.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: var(--spacing-sm) !important;
+  right: var(--spacing-sm) !important;
+  opacity: 0.8;
+  transition: opacity var(--transition-fast);
+}
+.leaflet-popup-close-button:hover {
+  opacity: 1;
+}
+/* ========== RESPONSIVE STYLES ========== */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 85%;
+    left: -85%;
+  }
+  .sidebar.open {
+    left: 0;
+  }
+  .sidebar-toggle.move {
+    left: calc(85% - 30px);
+  }
+  .main-content.shrink {
+    margin-left: 0;
+  }
+  .selection-container {
+    flex-direction: column;
+    top: 80px;
+    right: var(--spacing-sm);
+    padding: var(--spacing-sm);
+  }
+  .selection-container select {
+    min-width: 120px;
+  }
+  .leaflet-popup-content-wrapper {
+    width: 250px;
+  }
+  .leaflet-popup-content img {
+    height: 150px !important;
+  }
+}

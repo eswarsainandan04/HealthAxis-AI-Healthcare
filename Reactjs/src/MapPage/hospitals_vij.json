@@ -1,0 +1,1083 @@
+[
+    {
+        "name": "Asha Hospitals",
+        "location": {
+            "lat": 16.538525813585313,
+            "lon": 80.58176910083752
+        },
+        "address": "Gollapudi, Vijayawada, Andhra Pradesh 521225",
+        "type": "General",
+        "phone number": "Not Available",
+        "rating": "Not rated",
+        "availability": "Not Available"
+    },
+    {
+        "name": "Andhra Hospitals, Bhavanipuram",
+        "location": {
+            "lat": 16.536275496089832,
+            "lon": 80.58467986300049
+        },
+        "address": "ZP High School, Moulangar Masjid Rd Opp, Bhavanipuram, Gollapudi, Vijayawada, Andhra Pradesh 521225",
+        "type": "Private Hospital",
+        "phone number": "8662415757",
+        "rating": "4.6",
+        "availability": "24/7"
+    },
+    {
+        "name": "Vindhya Hospital, Bhavanipuram",
+        "location": {
+            "lat": 16.52645918143317,
+            "lon": 80.5936851520402
+        },
+        "address": "1, 520012, 76-8-21, Bhavanipuram Housing Board Rd, Beside Swathi Theatres, Near NH Highway, Bhavanipuram, Housing Board Colony, Vijayawada, Andhra Pradesh 520012",
+        "type": "General",
+        "phone number": "09246333351",
+        "rating": "Not rated",
+        "availability": "24/7"
+    },
+    {
+        "name": "Lata Hospital, Bhavanipuram",
+        "location": {
+            "lat": 16.527333456429243,
+            "lon": 80.59498833644591
+        },
+        "address": "Nabi Complex, 79-15-15, Balaji Home St, Near Swathi Theatre, Bhavanipuram, Housing Board Colony, Vijayawada, Andhra Pradesh 520012",
+        "type": "General",
+        "phone number": "08662414545",
+        "rating": "3.3",
+        "availability": "24/7"
+    },
+    {
+        "name": "Bhavani Hospital, Near swathi road",
+        "location": {
+            "lat": 16.531524778633308,
+            "lon": 80.59718689700395
+        },
+        "address": "Bhavani Hospital Rd, Karakatta South, Bhavanipuram, V D Puram, Vijayawada, Andhra Pradesh 520012",
+        "type": "General",
+        "phone number": "08662411499",
+        "rating": "3.9",
+        "availability": "24/7"
+    },
+    {
+        "name": "Sri Venkateshwara Nursimg Home for women and children, HB colony",
+        "location": {
+            "lat": 16.538435352576823,
+            "lon": 80.59665478996544
+        },
+        "address": "HIG Duplex no. 376, opposite Iron yard, Bhavanipuram, Housing Board Colony, Vijayawada, Andhra Pradesh 520012",
+        "type": "General",
+        "phone number": "08666517693",
+        "rating": "3.9",
+        "availability": "24/7"
+    },
+    {
+        "name": "Sloka Hospitals, Bhavanipuram",
+        "location": {
+            "lat": 16.526510609483694,
+            "lon": 80.59402144908628
+        },
+        "address": "oop swathi theater, Crombay Road, Bhavanipuram, pin, Vijayawada, Andhra Pradesh 520012",
+        "type": "General",
+        "phone number": "9100166063",
+        "rating": "3.8",
+        "availability": "24/7"
+    },
+    {
+        "name": "Yakkala Jyothi Hosptals",
+        "location": {
+            "lat": 16.521254591896493,
+            "lon": 80.60208578452792
+        },
+        "address": "1-3, 18-32C, Tvr St, Kummaripalem, V D Puram, Vijayawada, Andhra Pradesh 520012",
+        "type": "General",
+        "phone number": "09391549345",
+        "rating": "3.8",
+        "availability": "24/7"
+    },
+    {
+        "name": "Mithra Hospital, Nehru Inner ring road",
+        "location": {
+            "lat": 16.52271553326629,
+            "lon": 80.6035965141786
+        },
+        "address": "1-3-30, Vidhyadharapuram Main Rd, Near ram mandir, Kummaripalem, V D Puram, Vijayawada, Andhra Pradesh 520012",
+        "type": "Clinic",
+        "phone number": "08662411577",
+        "rating": "5.0 ",
+        "availability": "9:00 am - 9:30pm"
+    },
+    {
+        "name": "APSRTC Hospital",
+        "location": {
+            "lat": 16.530376089585385,
+            "lon": 80.60475742333682
+        },
+        "address": "1-4-190, 1-4-190, RTC Workshop Rd, RTC Colony, V D Puram, Vijayawada, Andhra Pradesh 520012",
+        "type": "Multispeciality",
+        "phone number": "Not Available",
+        "rating": "3.6",
+        "availability": "24/7"
+    },
+    {
+        "name": "Dr. Koneru Madhusudhan Rao Memorial Hospital",
+        "location": {
+            "lat": 16.53061779640017,
+            "lon": 80.61200883593555
+        },
+        "address": "GJJ6+7R3, Sorangam Road, Chitti Nagar Center, Beside Function Hall, Chittinagar, Mahantipuram, Vijayawada, Andhra Pradesh 520009",
+        "type": "General",
+        "phone number": "Not Available",
+        "rating": "Not rated",
+        "availability": "Not Available"
+    },
+    {
+        "name": "Siddhartha Orthopaedic Hospital",
+        "location": {
+            "lat": 16.530895501728676,
+            "lon": 80.61254498932017
+        },
+        "address": "KT Rd, near komala vilas centre, Kothapet, Islampet, Vijayawada, Andhra Pradesh 520001",
+        "type": "Orthopaedic ",
+        "phone number": "09573756989",
+        "rating": "5",
+        "availability": "Not Available"
+    },
+    {
+        "name": "Tulasi Hospital",
+        "location": {
+            "lat": 16.53179032729183,
+            "lon": 80.61359080279618
+        },
+        "address": "GJJ7+PC8, Carmel Church Rd, Chittinagar, Fraserpeta, Vijayawada, Andhra Pradesh 520009",
+        "type": "Medical Clinic",
+        "phone number": "09908477785",
+        "rating": "3",
+        "availability": "Not Available"
+    },
+    {
+        "name": "Bhavya Hospitals",
+        "location": {
+            "lat": 16.533523397189033,
+            "lon": 80.61400364090233
+        },
+        "address": "GJM7+CJJ, Unnamed Road, Chittinagar, Fraserpeta, Vijayawada, Andhra Pradesh 520001",
+        "type": "General",
+        "phone number": "Not Available",
+        "rating": "3.8",
+        "availability": "Not Available"
+    },
+    {
+        "name": "Cholera Hospital",
+        "location": {
+            "lat": 16.534011945238685,
+            "lon": 80.61377309494692
+        },
+        "address": "GJM7+HGR, Lambaadipeta, Fraserpeta, Vijayawada, Andhra Pradesh 520001",
+        "type": "General",
+        "phone number": "Not Available",
+        "rating": "3.4",
+        "availability": "10:00 am - 5:00 pm"
+    },
+    {
+        "name": "HealthCare Hospital, Vinchipeta",
+        "location": {
+            "lat": 16.5258041739039,
+            "lon": 80.61310492502894
+        },
+        "address": "7, 11-9, Gollapalem Gattu Rd, Vinchipeta, Vijayawada, Andhra Pradesh 520001",
+        "type": "General",
+        "phone number": "08666600555",
+        "rating": "5",
+        "availability": "10:00 am - 10:00 pm"
+    },
+    {
+        "name": "Hope Hospital, Vinchipeta",
+        "location": {
+            "lat": 16.52387198227769,
+            "lon": 80.61768860944456
+        },
+        "address": "Gandhi Bomma Center, 8-22-7, Effen Street, Vinchipeta, Vijayawada, Andhra Pradesh 520001",
+        "type": "General",
+        "phone number": "08662565566",
+        "rating": "4.8",
+        "availability": "10:00 am - 10:00 pm"
+    },
+    {
+        "name": "Sri Aravind Hospital",
+        "location": {
+            "lat": 16.522075591104205,
+            "lon": 80.61699721978184
+        },
+        "address": "Shahi Masjid St, Panja Center, Vinchipeta, Vijayawada, Andhra Pradesh 520001",
+        "type": "General",
+        "phone number": "08662562496",
+        "rating": "4.3",
+        "availability": "Not Available"
+    },
+    {
+        "name": "Paramathma Multispeciality Dental Hospital",
+        "location": {
+            "lat": 16.522543596481956,
+            "lon": 80.61731355027875
+        },
+        "address": "No. 8-20-1/B, Shahi Masjid St, Panja Center Road, Vinchipeta, Vijayawada, Andhra Pradesh 520001",
+        "type": "Dental Hospital",
+        "phone number": "6530108",
+        "rating": "4",
+        "availability": "10:00 am - 9:00 pm"
+    },
+    {
+        "name": "Avala Hospital",
+        "location": {
+            "lat": 16.521800093930338,
+            "lon": 80.61318926459447
+        },
+        "address": "Ganapathi Rao Road, Islampet, Vijayawada, Andhra Pradesh 520001",
+        "type": "Vacination Center",
+        "phone number": "8662564087",
+        "rating": "4.2",
+        "availability": "10:00 am - 9:00 pm"
+    },
+    {
+        "name": "Charithasri Hospitals",
+        "location": {
+            "lat": 16.521933810058982,
+            "lon": 80.6141007253483
+        },
+        "address": "29, Ganapathi Rao Road, Mahanthi Puram, Islampet, Vijayawada, Andhra Pradesh 520001",
+        "type": "General",
+        "phone number": "Not Available",
+        "rating": "Not rated",
+        "availability": "Not Available"
+    },
+    {
+        "name": "Akshaya Eye Hospital",
+        "location": {
+            "lat": 16.521522375521226,
+            "lon": 80.61387554092676
+        },
+        "address": "Nehru Statue Centre, Ganapathirao Road, Kothapet, Kothapet, Vijayawada, Andhra Pradesh 520001",
+        "type": "Eye Hospital",
+        "phone number": "08662563655",
+        "rating": "3.5",
+        "availability": "Not Available"
+    },
+    {
+        "name": "Sridevi Eye Hospital, one town",
+        "location": {
+            "lat": 16.517130257223776,
+            "lon": 80.6141766405405
+        },
+        "address": "Bodemma Hotel centre, Babu Rajendra Prasad Rd, Tarapet, Vijayawada, Andhra Pradesh 520001",
+        "type": "Eye Hospital",
+        "phone number": "9594924419",
+        "rating": "4.5",
+        "availability": "9:00 am - 8:00pm"
+    },
+    {
+        "name": "Anurag Hospital for children",
+        "location": {
+            "lat": 16.519078763643236,
+            "lon": 80.61100059934338
+        },
+        "address": "11-25-15, KT Rd, opposite Hindu High School, 1 Town, Kothapet, Vijayawada, Andhra Pradesh 520001",
+        "type": "Children Hospital",
+        "phone number": "7386668770",
+        "rating": "4.4",
+        "availability": "10:00 am - 9:00 pm"
+    },
+    {
+        "name": "Government General Hospital, Hanuman Pet",
+        "location": {
+            "lat": 16.512869540542088,
+            "lon": 80.61865130929675
+        },
+        "address": "Old Bus Stand, Road, Hanumanpet, Vijayawada, Andhra Pradesh 520002",
+        "type": "General",
+        "phone number": "Not Available",
+        "rating": "3.9",
+        "availability": "24/7"
+    },
+    {
+        "name": "Global Multispeciality Hospital",
+        "location": {
+            "lat": 16.51117743101965,
+            "lon": 80.61869567538535
+        },
+        "address": "D No, 27-39-1, MG Rd, Beside Police control room, Governor Peta, Vijayawada, Andhra Pradesh 520002",
+        "type": "Super Speciality ",
+        "phone number": "08662571613",
+        "rating": "3",
+        "availability": "24/7"
+    },
+    {
+        "name": "Dr. Sohan Singh Homeo Hospital",
+        "location": {
+            "lat": 16.51119800386876,
+            "lon": 80.62633182919087
+        },
+        "address": "GJ6G+FGX, besant road, JD Hospital Rd, beside OM ART PRINT, Governor Peta, Vijayawada, Andhra Pradesh 520002",
+        "type": "Homeo Care",
+        "phone number": "9441759437",
+        "rating": "4.6",
+        "availability": "10:30 am - 5:00 pm"
+    },
+    {
+        "name": "Dharma Hospital",
+        "location": {
+            "lat": 16.511352300167285,
+            "lon": 80.62649267520626
+        },
+        "address": "GJ6G+GJ9, JD Hospital Rd, Governor Peta, Vijayawada, Andhra Pradesh 520002",
+        "type": "General",
+        "phone number": "Not Available",
+        "rating": "Not rated",
+        "availability": "Not Available"
+    },
+    {
+        "name": "Andhra Hospitals, Governorpeta",
+        "location": {
+            "lat": 16.511076086413198,
+            "lon": 80.62970526347004
+        },
+        "address": "C.V.R. Complex, D.NO. 29-14-61, Sheshadri Sastry St, Governor Peta, Vijayawada, Andhra Pradesh 520002",
+        "type": "Private Hospital",
+        "phone number": "8662574757",
+        "rating": "4.6",
+        "availability": "24/7"
+    },
+    {
+        "name": "Sankara Eye Hospital",
+        "location": {
+            "lat": 16.512689529594923,
+            "lon": 80.63107931607378
+        },
+        "address": "Pinnamaneni, Nirmala Convent, Polyclinic Rd, near Benz Circle, Gayatri Nagar, Signal, Vijayawada, Andhra Pradesh 520008",
+        "type": "Eye Hospital",
+        "phone number": "9121166114",
+        "rating": "3.7",
+        "availability": "9:00 am - 6:00pm"
+    },
+    {
+        "name": "Ashoka Hospital",
+        "location": {
+            "lat": 16.512843824702763,
+            "lon": 80.6322052381815
+        },
+        "address": "Door No 29, 6 9/a, Nakkala Rd, Beside Central Bank Of India, Suryaraopeta, Governor Peta, Vijayawada, Andhra Pradesh 520002",
+        "type": "General",
+        "phone number": "07997993959",
+        "rating": "4.7",
+        "availability": "10:30 am - 3:00 pm"
+    },
+    {
+        "name": "Sridevi Eye Hospital, suryaraopet",
+        "location": {
+            "lat": 16.513486719659472,
+            "lon": 80.63237680726454
+        },
+        "address": "29-6-13/A, Nakkala Rd, Near Vijaya Talkies, Suryaraopeta, Governor Peta, Vijayawada, Andhra Pradesh 520002",
+        "type": "Eye Hospital",
+        "phone number": "09594924418",
+        "rating": "4.5",
+        "availability": "9:00 am - 8:00pm"
+    },
+    {
+        "name": "Sri Sai Hospital",
+        "location": {
+            "lat": 16.513959888981365,
+            "lon": 80.63251736370219
+        },
+        "address": "D. No:29-6, 17, Nakkala Rd, beside Bata showroom, Vijayatakies Centre, Suryaraopeta, Governor Peta, Vijayawada, Andhra Pradesh 520002",
+        "type": "General",
+        "phone number": "08662431230",
+        "rating": "3.8",
+        "availability": "24/7"
+    },
+    {
+        "name": "Rajeshwari Hospital",
+        "location": {
+            "lat": 16.513687302448247,
+            "lon": 80.63292484027451
+        },
+        "address": "29-8-44, Chiluku, Durgaiah St, Suryaraopeta, Vijayawada, Andhra Pradesh 520002",
+        "type": "General",
+        "phone number": "08662431726",
+        "rating": "5.0 ",
+        "availability": "24/7"
+    },
+    {
+        "name": "VIjayawada Multispeciality Hospital",
+        "location": {
+            "lat": 16.513008406015338,
+            "lon": 80.63399200759203
+        },
+        "address": "29-8-3 chilukudurgaiah street, Nakkala Rd, Suryaraopeta, Vijayawada, Andhra Pradesh 520002",
+        "type": "Multispeciality",
+        "phone number": "9292104108",
+        "rating": "3.6",
+        "availability": "24/7"
+    },
+    {
+        "name": "Giridhar ENT Hospital",
+        "location": {
+            "lat": 16.513481576508312,
+            "lon": 80.63383652311049
+        },
+        "address": "Shop No. 29, 8-39, Chiluku Durgayya Veedhi, Governor Peta, Vijayawada, Andhra Pradesh 520002",
+        "type": "ENT Hospital",
+        "phone number": "08662435194",
+        "rating": "4.3",
+        "availability": "morning and evening"
+    },
+    {
+        "name": "Sri Santhi Hospitals",
+        "location": {
+            "lat": 16.5138107379071,
+            "lon": 80.63365959249353
+        },
+        "address": "GJ7M+GF8, Chiluku Durgayya Veedhi, Suryaraopeta, Governor Peta, Vijayawada, Andhra Pradesh 520002",
+        "type": "General",
+        "phone number": "08666620456",
+        "rating": "3.2",
+        "availability": "12:00 am - 11:30 pm"
+    },
+    {
+        "name": "Hasini Hospital",
+        "location": {
+            "lat": 16.513594725802378,
+            "lon": 80.63434050729201
+        },
+        "address": "29-25-37, Vemuri Vari St, near ANJENEYA swami temple, Near Kothavantena Anjaneya Swami Temple, Suryaraopeta, Governor Peta, Vijayawada, Andhra Pradesh 520002",
+        "type": "Liver, Pancreas and Gastro Centre",
+        "phone number": "8074765347",
+        "rating": "4.7",
+        "availability": "24/7"
+    },
+    {
+        "name": "Vimhans Hospital",
+        "location": {
+            "lat": 16.513538151163633,
+            "lon": 80.63459786091663
+        },
+        "address": "Devi Oil Mill Road, Vishnu Vardhana Rao St, Suryaraopeta, Governor Peta, Vijayawada, Andhra Pradesh 520002",
+        "type": "Psychiatric Hospital",
+        "phone number": "08662432040",
+        "rating": "4.9",
+        "availability": "24/7"
+    },
+    {
+        "name": "Udaya Eye Hospital",
+        "location": {
+            "lat": 16.514098753671156,
+            "lon": 80.63519299117353
+        },
+        "address": "29-22-18, peesapativari St, Governor Peta, Vijayawada, Andhra Pradesh 520002",
+        "type": "Eye Hospital",
+        "phone number": "08662441221",
+        "rating": "4.5",
+        "availability": "9:30\u00a0am\u00968\u00a0pm"
+    },
+    {
+        "name": "Sowjanya Hospitals",
+        "location": {
+            "lat": 16.51353300801382,
+            "lon": 80.63552004473817
+        },
+        "address": "no 29, 23-23, Tadepallivari St, Suryaraopeta, Governor Peta, Vijayawada, Andhra Pradesh 520002",
+        "type": "General",
+        "phone number": "07901299199",
+        "rating": "4.1",
+        "availability": "Not Available"
+    },
+    {
+        "name": "Endo Care Hospital",
+        "location": {
+            "lat": 16.513646157277787,
+            "lon": 80.63617950474868
+        },
+        "address": "29-19-59, Dornakal Rd, New Giri Puram, Suryaraopeta, Vijayawada, Andhra Pradesh 520002",
+        "type": "Endocare",
+        "phone number": "07095792222",
+        "rating": "4.5",
+        "availability": "8\u00a0am - 4\u00a0pm"
+    },
+    {
+        "name": "Surakshita Children Hospital",
+        "location": {
+            "lat": 16.513280993506008,
+            "lon": 80.6363349892302
+        },
+        "address": "No. 20, 29-25-35, Vemuri Vari Veedhi, Venkatswara Rao Street, Suryaraopeta, Vijayawada, Andhra Pradesh 520002",
+        "type": "General",
+        "phone number": "8662438022",
+        "rating": "3.9",
+        "availability": "9\u00a0am - 4\u00a0pm, 5 -9\u00a0pm"
+    },
+    {
+        "name": "Balaji ENT Hospital",
+        "location": {
+            "lat": 16.512566093419974,
+            "lon": 80.63468541346275
+        },
+        "address": "Suryaraopeta, Governor Peta, Vijayawada, Andhra Pradesh 520002",
+        "type": "ENT Hospital",
+        "phone number": "08662432501",
+        "rating": "3.1",
+        "availability": "10\u00a0am - 1:30\u00a0pm"
+    },
+    {
+        "name": "Chaitanya Hospital Suryaraopet",
+        "location": {
+            "lat": 16.51185119068955,
+            "lon": 80.63509836982047
+        },
+        "address": "No. 29-19-16, Shop, Dornakal Rd, Suryaraopeta, Governor Peta, Vijayawada, Andhra Pradesh 520002",
+        "type": "General",
+        "phone number": "09441084282",
+        "rating": "4.1",
+        "availability": "Not Available"
+    },
+    {
+        "name": "Harini Hospitals",
+        "location": {
+            "lat": 16.51055510129911,
+            "lon": 80.63341928101946
+        },
+        "address": "# 29, 14-51, Prakasam Rd, near Pushpa Hotel Center, Suryaraopeta, Labbipet, Vijayawada, Andhra Pradesh 520002",
+        "type": "Liver, Pancreas and Gastro Centre",
+        "phone number": "9848044404",
+        "rating": "4.9",
+        "availability": "24/7"
+    },
+    {
+        "name": "Sai Ram Maternity Hospital",
+        "location": {
+            "lat": 16.51055510129911,
+            "lon": 80.63341928101946
+        },
+        "address": "29-30-15, Prakasam Rd, opp. SBI Zonal Office, Suryaraopeta, Vijayawada, Andhra Pradesh 520002",
+        "type": "Meternity Hospital",
+        "phone number": "08662436868",
+        "rating": "4.0 ",
+        "availability": "24/7"
+    },
+    {
+        "name": "Ashwa Hospital",
+        "location": {
+            "lat": 16.51112599888729,
+            "lon": 80.6355049176856
+        },
+        "address": "29-28-2B, Dasarivari street, Prakasam Rd, opp. lath super specialty hospital, Vijayawada, Andhra Pradesh 520002",
+        "type": "General",
+        "phone number": "08666677655",
+        "rating": "4.8",
+        "availability": "24/7"
+    },
+    {
+        "name": "Shine Hospitals",
+        "location": {
+            "lat": 16.510148785772348,
+            "lon": 80.63726549087387
+        },
+        "address": "D, 29-28/1-31, Kovelamudivari Street, Suryaraopeta, Vijayawada, Andhra Pradesh 520002",
+        "type": "General",
+        "phone number": "07799944580",
+        "rating": "4.7",
+        "availability": "24/7"
+    },
+    {
+        "name": "Sunrise Hospitals",
+        "location": {
+            "lat": 16.512828395197523,
+            "lon": 80.63929660079947
+        },
+        "address": "33-13-5, Bellapu Sobhanadri St, near Pushpa Hotel Center, Moghalrajpuram, Suryaraopeta, Vijayawada, Andhra Pradesh 520002",
+        "type": "Multispeciality",
+        "phone number": "08662434646",
+        "rating": "2.9",
+        "availability": "24/7"
+    },
+    {
+        "name": "Royal Hospitals",
+        "location": {
+            "lat": 16.510220791117835,
+            "lon": 80.63844411691795
+        },
+        "address": "#33-25-45, near Pushpa Hotel Center, Kasturibaipet, Vijayawada, Andhra Pradesh 520002",
+        "type": "General",
+        "phone number": "08662441778",
+        "rating": "3.8",
+        "availability": "24/7"
+    },
+    {
+        "name": "Hrudaya Hospital",
+        "location": {
+            "lat": 16.508890908872015,
+            "lon": 80.64045702813542
+        },
+        "address": "# 32, 5-7, Anumolu Seshagirirao St, Praja Shakti Nagar, Kasturibaipet, Labbipet, Vijayawada, Andhra Pradesh 520010",
+        "type": "General",
+        "phone number": "08662483377",
+        "rating": "5.0 ",
+        "availability": "24/7"
+    },
+    {
+        "name": "Suraksha Hospital",
+        "location": {
+            "lat": 16.509384662486816,
+            "lon": 80.64165801171691
+        },
+        "address": "Door no 32/2/8A Anjamma street, Prajasakthi Nagar, Moghalrajpuram, Vijayawada, Andhra Pradesh 520010",
+        "type": "General",
+        "phone number": "08666677999",
+        "rating": "4.0 ",
+        "availability": "9:00 am - 8:00pm"
+    },
+    {
+        "name": "Rohan Multispeciality Dental Hospital",
+        "location": {
+            "lat": 16.508466939001703,
+            "lon": 80.64195153779157
+        },
+        "address": "32-2/1-7, Ratnamamba St, opp. Sarada Womens college, near Madhu Gardens, Moghalrajpuram, Christurajupuram, Vijayawada, Andhra Pradesh 520010",
+        "type": "Dental Hospital",
+        "phone number": "08096448899",
+        "rating": "4.6",
+        "availability": "9:00 am - 8:00pm"
+    },
+    {
+        "name": "Praveen Hospitals",
+        "location": {
+            "lat": 16.50778802423333,
+            "lon": 80.64277185247003
+        },
+        "address": "Bus stop, 32-9-18 Sivalayam Street Near Mogalrajpuram, Vijayawada, Andhra Pradesh 520010",
+        "type": "Cardiac Centre",
+        "phone number": "08662444440",
+        "rating": "2.2",
+        "availability": "24/7"
+    },
+    {
+        "name": "SVR Neuro & Trauma Hospital",
+        "location": {
+            "lat": 16.504056171436183,
+            "lon": 80.64253716482688
+        },
+        "address": "40-1/1-14a, Sivananda Street, MG Rd, Labbipet, Vijayawada, Andhra Pradesh 520010",
+        "type": "Multispeciality",
+        "phone number": "09542121234",
+        "rating": "4.5",
+        "availability": "24/7"
+    },
+    {
+        "name": "Sri Sai Dhatu Ayurvedic Speciality Hospital",
+        "location": {
+            "lat": 16.501898852921897,
+            "lon": 80.64666035756919
+        },
+        "address": "# 40-3/1-43, Krishna Nagar, Behind Pioneer House, Labbipet, Vijayawada, Andhra Pradesh 520010",
+        "type": "Ayurvedic",
+        "phone number": "09542496736",
+        "rating": "5.0 ",
+        "availability": "7\u00a0am - 7\u00a0pm"
+    },
+    {
+        "name": "Chaitanya Eye Hospital",
+        "location": {
+            "lat": 16.504244256175706,
+            "lon": 80.64765246629703
+        },
+        "address": "40-5-19/4, Tikkle Rd, Moghalrajpuram, Sidhartha Nagar, Benz Circle, Vijayawada, Andhra Pradesh 520010",
+        "type": "Eye Hospital",
+        "phone number": "08662485868",
+        "rating": "4.7",
+        "availability": "9:00 am - 8:00pm"
+    },
+    {
+        "name": "VGR Diabetes Specialities Hospital",
+        "location": {
+            "lat": 16.505761084745114,
+            "lon": 80.64687334238461
+        },
+        "address": "40-5-19/18B, Siddhartha College Rd, near Siddarthe College, Moghalrajpuram, Sidhartha Nagar, Labbipet, Vijayawada, Andhra Pradesh 520010",
+        "type": "Diabetes",
+        "phone number": "08662485933",
+        "rating": "4.9",
+        "availability": "6:30\u00a0am - 8\u00a0pm"
+    },
+    {
+        "name": "Trust Hospital",
+        "location": {
+            "lat": 16.500828659748752,
+            "lon": 80.65399196804563
+        },
+        "address": "Sub Register Office Road, near Benz Circle, Kala Nagar, Acharya Ranga Nagar, Vijayawada, Andhra Pradesh 520010",
+        "type": "Orthopaedic ",
+        "phone number": "09246478787",
+        "rating": "4.4",
+        "availability": "24/7"
+    },
+    {
+        "name": "Maxivision Eye Hospital",
+        "location": {
+            "lat": 16.500225701721774,
+            "lon": 80.64853249059408
+        },
+        "address": "3rd Sri Krishna Sai Bhavan 40-1, 48, MG Rd, opp. D.V.Manor Hotel, Labbipet, Vijayawada, Andhra Pradesh 520010",
+        "type": "Eye Hospital",
+        "phone number": "09390110000",
+        "rating": "4.8",
+        "availability": "9:00 am - 6:00pm"
+    },
+    {
+        "name": "Ashraf Maternity ENT & Multispeciality Hospital",
+        "location": {
+            "lat": 16.499207285274252,
+            "lon": 80.6486075520679
+        },
+        "address": "MG Road, Mohiddin Estate Beside Twills Showroom, Vijayawada, Andhra Pradesh 520010",
+        "type": "Meternity Hospital",
+        "phone number": "08662475087",
+        "rating": "4.3",
+        "availability": "24/7"
+    },
+    {
+        "name": "Vardhan Ayurvedic",
+        "location": {
+            "lat": 16.49723215930546,
+            "lon": 80.6493259976033
+        },
+        "address": "#40-26-21/B, M & M Show Room Lane, Vijayawada, Andhra Pradesh 520010",
+        "type": "Ayurvedic",
+        "phone number": "07997108108",
+        "rating": "3.7",
+        "availability": "9:00 am - 6:00pm"
+    },
+    {
+        "name": "The Pujitha Hospital",
+        "location": {
+            "lat": 16.497689586983746,
+            "lon": 80.6584917892769
+        },
+        "address": "Near Spatagiri Bank, Panta Kaluva Rd, NTR Circle, Patamata, Benz Circle, Vijayawada, Andhra Pradesh 520008",
+        "type": "General",
+        "phone number": "08662495622",
+        "rating": "4.1",
+        "availability": "10:00 am - 9:00 pm"
+    },
+    {
+        "name": "Kanumuri Chest Hospital",
+        "location": {
+            "lat": 16.492320091644217,
+            "lon": 80.66530093165672
+        },
+        "address": "Patamata High School Road, Patamata, Vijayawada, Andhra Pradesh 520010",
+        "type": "Private Hospital",
+        "phone number": "09030289711",
+        "rating": "4.2",
+        "availability": "9\u00a0am\u009612:30\u00a0pm, 5\u00967:30\u00a0pm"
+    },
+    {
+        "name": "Yashoda Children Hospital",
+        "location": {
+            "lat": 16.488900309932834,
+            "lon": 80.67231852170374
+        },
+        "address": "beside Water Tank Road, Sanath Nagar, Vijayawada, Andhra Pradesh 520007",
+        "type": "Children Hospital",
+        "phone number": "9030157585",
+        "rating": "4.5",
+        "availability": "9\u00a0am\u009610\u00a0pm"
+    },
+    {
+        "name": "Priya Childrens Hospital",
+        "location": {
+            "lat": 16.497418263446335,
+            "lon": 80.6656779836298
+        },
+        "address": "D. 57-12-3, Panta Kaluva Road, Rd Number 4, Patamata, Vijayawada, Andhra Pradesh 520010",
+        "type": "Children Hospital",
+        "phone number": "07416522124",
+        "rating": "3.3",
+        "availability": "10\u00a0am\u00962\u00a0pm, 6\u00969\u00a0pm"
+    },
+    {
+        "name": "Lahari Hospital",
+        "location": {
+            "lat": 16.50010482942152,
+            "lon": 80.66962426256943
+        },
+        "address": "GM29+2VM, RR Garden, High School Rd, Patamata, Vijayawada, Andhra Pradesh 520008",
+        "type": "Private Hospital",
+        "phone number": "07416582359",
+        "rating": "4.4",
+        "availability": "24/7"
+    },
+    {
+        "name": "Revive Hospital",
+        "location": {
+            "lat": 16.503931560835834,
+            "lon": 80.66546371230484
+        },
+        "address": "Funtimes, Club Road, Door No: 59A-8-18/1A, Sivaram Plaza, Teachers Colony Rd, Patamata, Vijayawada, Andhra Pradesh 520010",
+        "type": "Home Clinic",
+        "phone number": "09177033307",
+        "rating": "5.0 ",
+        "availability": "24/7"
+    },
+    {
+        "name": "Liberty Hospitals",
+        "location": {
+            "lat": 16.489858691992943,
+            "lon": 80.67153296861865
+        },
+        "address": "Kings Square, Complex, MG Rd, opp. Auto Nagar Bus Terminal, Old Check Post Centre, Kishore Nagar, Vijayawada, Andhra Pradesh 520007",
+        "type": "General",
+        "phone number": "08662554888",
+        "rating": "3.7",
+        "availability": "24/7"
+    },
+    {
+        "name": "Somanadh Hospital",
+        "location": {
+            "lat": 16.486966229615813,
+            "lon": 80.67666017039431
+        },
+        "address": "Kolli Venkateswara Rao Street, Ashok Nagar, Ayyappa Nagar, Vijayawada, Andhra Pradesh 520007",
+        "type": "General",
+        "phone number": "09849545117",
+        "rating": "3.3",
+        "availability": "9\u00a0am\u00969\u00a0pm"
+    },
+    {
+        "name": "Bezawada Dental Hospital",
+        "location": {
+            "lat": 16.487014862426033,
+            "lon": 80.67817249788278
+        },
+        "address": "M.G.Road, Kanuru Main Rd, opp. Coastal Bank, Ashok Nagar, Vijayawada, Andhra Pradesh 520007",
+        "type": "Dental Hospital",
+        "phone number": "8662551122",
+        "rating": "4.5",
+        "availability": "10\u00a0am\u00969\u00a0pm"
+    },
+    {
+        "name": "Nagarjuna Hospital Ltd",
+        "location": {
+            "lat": 16.48724411452816,
+            "lon": 80.68423565735948
+        },
+        "address": "Kalyana vedika, NTR Marg, Near Mana, Endowments Colony, Chalasani Nagar, Kanuru, Vijayawada, Andhra Pradesh 520007",
+        "type": "Private Hospital",
+        "phone number": "09963414242",
+        "rating": "4.5",
+        "availability": "24/7"
+    },
+    {
+        "name": "Rainbow Childrens Hospital",
+        "location": {
+            "lat": 16.51769973269848,
+            "lon": 80.67400898844573
+        },
+        "address": "48-10, 12/2A, Service Road, beside Aahaar Food Court, Nagarjuna Nagar, currency nagar, Vijayawada, Andhra Pradesh 520008",
+        "type": "Children Hospital",
+        "phone number": "08069662201",
+        "rating": "4.7",
+        "availability": "24/7"
+    },
+    {
+        "name": "Ayush Hospital",
+        "location": {
+            "lat": 16.517586585808086,
+            "lon": 80.67510274135033
+        },
+        "address": "48-13-3 3A Ring Road Opp.Siddhartha Medical College, Sri Ramachandra Nagar, Vijayawada, Andhra Pradesh 520008",
+        "type": "Private Hospital",
+        "phone number": "9603929292",
+        "rating": "4.2",
+        "availability": "24/7"
+    },
+    {
+        "name": "Sri satya sai Hospital",
+        "location": {
+            "lat": 16.52003991814575,
+            "lon": 80.66583742825918
+        },
+        "address": "GM98+W9H, A S Rama Rao Rd, Gangireddula Dibba, Gunadala, Vijayawada, Andhra Pradesh 520004",
+        "type": "General",
+        "phone number": "Not Available",
+        "rating": "5.9",
+        "availability": "Not Available"
+    },
+    {
+        "name": "ESI Hospital",
+        "location": {
+            "lat": 16.51961106356494,
+            "lon": 80.66819604745042
+        },
+        "address": "Gunadala, Vijayawada, Andhra Pradesh 520004",
+        "type": "Government Hospital",
+        "phone number": "08662450215",
+        "rating": "3.0 ",
+        "availability": "24/7"
+    },
+    {
+        "name": "Sri Vijaya Sai Dental Hospital",
+        "location": {
+            "lat": 16.522851118885907,
+            "lon": 80.66162397216532
+        },
+        "address": "65-6-19, Patamata, Ntr Center, Patamata, Vijayawada, Andhra Pradesh 520010",
+        "type": "Dental Hospital",
+        "phone number": "08662481469",
+        "rating": "5.0 ",
+        "availability": "Not Available"
+    },
+    {
+        "name": "Praneeth Multispeciality Hospital",
+        "location": {
+            "lat": 16.52698596768534,
+            "lon": 80.646444128538
+        },
+        "address": "GJGW+QHV, Beside Andhra Bank, Pasupu Thota, Madhura Nagar, Vijayawada, Andhra Pradesh 520004",
+        "type": "Multispeciality",
+        "phone number": "Not Available",
+        "rating": "4.0 ",
+        "availability": "Not Available"
+    },
+    {
+        "name": "Manipal Super Speciality Hospital",
+        "location": {
+            "lat": 16.48441930252463,
+            "lon": 80.61688090136937
+        },
+        "address": "Manipal Hospital Vijayawada # 12-570, near, Kanakadurga Varadhi, Tadepalle, Vijayawada, Andhra Pradesh 522501",
+        "type": "Super Speciality ",
+        "phone number": "18001024647",
+        "rating": "4.8",
+        "availability": "24/7"
+    },
+    {
+        "name": "Chikitsa General Hospital",
+        "location": {
+            "lat": 16.547873571612747,
+            "lon": 80.65422696734426
+        },
+        "address": "77-85/1-28, Prashanthi Nagar, Payakapuram, Vijayawada, Andhra Pradesh 520015",
+        "type": "General",
+        "phone number": "Not Available",
+        "rating": "3.6",
+        "availability": "24/7"
+    },
+    {
+        "name": "Khan Hospital",
+        "location": {
+            "lat": 16.54670616388933,
+            "lon": 80.6482634505844
+        },
+        "address": "# 30-1, Nunna Rd, Prakash Nagar, Ajit Singh Nagar, Payakapuram, Vijayawada, Andhra Pradesh 520015",
+        "type": "General",
+        "phone number": "09885575609",
+        "rating": "3.5",
+        "availability": "8:30\u00a0am\u00969:30\u00a0pm"
+    },
+    {
+        "name": "Smile Multispeciality Hospital",
+        "location": {
+            "lat": 16.54019594503574,
+            "lon": 80.63985279876984
+        },
+        "address": "Azith, Ajit Singh Nagar, PNT Colony, Vijayawada, Andhra Pradesh 520015",
+        "type": "Multispeciality",
+        "phone number": "08662402444",
+        "rating": "4.1",
+        "availability": "24/7"
+    },
+    {
+        "name": "St Anns Health Center, Ajit singh nagar",
+        "location": {
+            "lat": 16.53979483431911,
+            "lon": 80.63738655665267
+        },
+        "address": "GJQP+WXJ, Ajit Singh Nagar, PNT Colony, Vijayawada, Andhra Pradesh 520015",
+        "type": "General",
+        "phone number": "Not Available",
+        "rating": "3.6",
+        "availability": "Not Available"
+    },
+    {
+        "name": "American Hospital",
+        "location": {
+            "lat": 16.504905415357577,
+            "lon": 80.63085166872301
+        },
+        "address": "GJ3J+RFV, Punammathota, Buckinghampeta, Vijayawada, Andhra Pradesh 520002",
+        "type": "General",
+        "phone number": "Not Available",
+        "rating": "3.9",
+        "availability": "24/7"
+    },
+    {
+        "name": "St Anns Hospital",
+        "location": {
+            "lat": 16.504596812346588,
+            "lon": 80.63117688506262
+        },
+        "address": "Indira Towers, American Hospital Rd, Punammathota, Labbipet, Vijayawada, Andhra Pradesh 520002",
+        "type": "General",
+        "phone number": "08662575333",
+        "rating": "3.5",
+        "availability": "24/7"
+    },
+    {
+        "name": "Mamata Childrens Hospital",
+        "location": {
+            "lat": 16.521970044394276,
+            "lon": 80.61265258628842
+        },
+        "address": "9-60-81, Ganapathi Rao Road, near Nehru Stastus Centre, Kothapet, Vinchipeta, Vijayawada, Andhra Pradesh 520001",
+        "type": "Children Hospital",
+        "phone number": "09666196999",
+        "rating": "4.4",
+        "availability": "10\u00a0am\u00969\u00a0pm"
+    },
+    {
+        "name": "Unity Hospitals",
+        "location": {
+            "lat": 16.512349149762873,
+            "lon": 80.6314957132671
+        },
+        "address": "29-5-8, Cherukupalli vari St, Venkatswara Rao Street, Governor Peta, Vijayawada, Andhra Pradesh 520002",
+        "type": "Multispeciality",
+        "phone number": "08666633108",
+        "rating": "4.8",
+        "availability": "24/7"
+    },
+    {
+        "name": "Time Hospital",
+        "location": {
+            "lat": 16.4877307776123,
+            "lon": 80.67766498715896
+        },
+        "address": "Bus Stop, 11/150 Vijayawada Road Opp Ashoknagar, Sanath Nagar, Vijayawada, Andhra Pradesh 520007",
+        "type": "Private Hospital",
+        "phone number": "08688886666",
+        "rating": "3.1",
+        "availability": "24/7"
+    },
+    {
+        "name": "Vijaya Super Speciality Hospital",
+        "location": {
+            "lat": 16.51391831716373,
+            "lon": 80.63732897283164
+        },
+        "address": "29-26-92A, Bolivar Street, Suryaraopeta, Vijayawada, Andhra Pradesh 520002",
+        "type": "Super Speciality",
+        "phone number": "09440144477",
+        "rating": "4.5",
+        "availability": "24/7"
+    }
+    
+]
