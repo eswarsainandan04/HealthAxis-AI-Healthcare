@@ -23,5 +23,10 @@ nodejs/
    >node server.js
 
 
+
+
+open browser enter http://localhost:3000 where running the project 
+
+
   
   
