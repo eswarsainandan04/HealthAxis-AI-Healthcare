@@ -4,7 +4,7 @@ reactjs/
    >npm start
 
 backend/
-obtain API key From Google Gemini Studio and place ket in files chat.py and app.py then run all files below in a terminals
+obtain API key From Google Gemini Studio and place key in files chat.py and app.py then run all files below in a terminals
 
    >python chat.py
    
