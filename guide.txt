@@ -1,0 +1,32 @@
+to run project step by step
+
+reactjs/
+   >npm start
+
+backend/
+obtain API key From Google Gemini Studio and place key in files chat.py and app.py then run all files below in a terminals
+
+   >python chat.py
+   
+   >python app.py
+
+   >python disped.py
+
+INSTALL XAMPP create database:Healthcare run below
+
+   >python search.py
+
+
+
+START MySQL and Apache Sever on XAMPP
+nodejs/
+   >node server.js
+
+
+
+
+open browser enter http://localhost:3000 where running the project 
+
+
+  
+  
