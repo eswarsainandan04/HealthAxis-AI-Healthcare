@@ -38,6 +38,8 @@ npm start
 
 cd python-flask
 
+pip install requirements.txt
+
 python database.py
 python chat.py
 python analysis.py
