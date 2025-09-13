@@ -2,15 +2,6 @@
 
 Follow the steps below to run the project successfully.
 
----
-
-## 📁 Project Structure
-
-
----
-
-## 🚀 Step-by-Step Guide
-
 
 
 ---
@@ -21,7 +12,6 @@ Make sure you have the following installed:
 
 - [Node.js & npm](https://nodejs.org/)
 - [Python 3.8+](https://www.python.org/)
-- [XAMPP](https://www.apachefriends.org/index.html) (Apache + MySQL)
 - Required packages for Node.js and Python
 
 ---
@@ -41,11 +31,15 @@ npm start      # Start the React frontend
 Navigate to the `reactjs` folder and start the React development server:
 
 ```bash
-cd reactjs
+cd ReactJS
+
 npm install   # Only required for the first time
 npm start
 
-cd backend
+cd python-flask
+
+python database.py
 python chat.py
-python app.py
+python analysis.py
 python disped.py
+python remainder.py
