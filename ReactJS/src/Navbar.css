@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background: white;
+  height: 100vh;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: rgb(15, 15, 15);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.logo-img {
+  height: 30px;
+  width: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  position: relative;
+  cursor: pointer;
+  color: #fff;
+  transition: transform 0.3s ease;
+  /* Added flex display for icon alignment */
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Added styling for FontAwesome icons */
+.nav-icon {
+  font-size: 16px;
+  color: #00adb5;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover .nav-icon {
+  color: #fff;
+}
+
+.nav-item:hover {
+  transform: scale(1.1);
+}
+
+.nav-item::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background: #00adb5;
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.nav-item:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+/* Dropdown Menu Styles */
+.dropdown {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  background-color: rgba(35, 35, 35, 1);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  min-width: 150px;
+  display: none;
+  z-index: 999;
+}
+
+.nav-item:hover .dropdown {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 10px 20px;
+  color: #fff;
+  text-align: left;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+}
+
+.dropdown-item:hover {
+  background-color: #00adb5;
+  color: #000;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .dropdown {
+    min-width: 100%;
+  }
+
+  /* Responsive icon sizing for mobile */
+  .nav-icon {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,440 @@
+/* Healthcare Reminder System - Professional Medical Interface */
+/* Unique classnames with 'hcr-' prefix to avoid conflicts */
+
+* {
+  box-sizing: border-box;
+}
+
+.hcr-remainder-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+/* Header Section */
+.hcr-header {
+  background: linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #60a5fa 100%);
+  color: white;
+  padding: 2rem 0;
+  box-shadow: 0 4px 20px rgba(30, 64, 175, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.hcr-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+  opacity: 0.3;
+}
+
+.hcr-header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.hcr-medical-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.hcr-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hcr-subtitle {
+  font-size: 1.1rem;
+  margin: 0;
+  opacity: 0.9;
+  font-weight: 300;
+}
+
+/* Main Content */
+.hcr-main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Tab Navigation */
+.hcr-tab-navigation {
+  display: flex;
+  gap: 0;
+  margin-bottom: 2rem;
+  background: white;
+  border-radius: 12px;
+  padding: 0.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e2e8f0;
+}
+
+.hcr-tab-button {
+  flex: 1;
+  padding: 1rem 1.5rem;
+  border: none;
+  background: transparent;
+  color: #64748b;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.hcr-tab-button:hover {
+  background: #f1f5f9;
+  color: #475569;
+}
+
+.hcr-tab-active {
+  background: #3b82f6 !important;
+  color: white !important;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
+}
+
+.hcr-tab-icon {
+  font-size: 1.1rem;
+}
+
+/* Message Alerts */
+.hcr-message {
+  margin-bottom: 2rem;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid;
+  font-weight: 500;
+}
+
+.hcr-message-success {
+  background: #f0fdf4;
+  border-left-color: #22c55e;
+  color: #166534;
+}
+
+.hcr-message-error {
+  background: #fef2f2;
+  border-left-color: #ef4444;
+  color: #991b1b;
+}
+
+.hcr-message-content {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Form Container */
+.hcr-form-container {
+  background: white;
+  border-radius: 16px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+}
+
+.hcr-form-header {
+  margin-bottom: 2rem;
+  text-align: center;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 1.5rem;
+}
+
+.hcr-form-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0 0 0.5rem 0;
+}
+
+.hcr-form-description {
+  color: #64748b;
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Form Layout */
+.hcr-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.hcr-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.hcr-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.hcr-full-width {
+  grid-column: 1 / -1;
+}
+
+/* Form Elements */
+.hcr-label {
+  font-weight: 600;
+  color: #374151;
+  font-size: 0.95rem;
+}
+
+.hcr-input,
+.hcr-select,
+.hcr-textarea {
+  padding: 0.875rem 1rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background: #fafafa;
+}
+
+.hcr-input:focus,
+.hcr-select:focus,
+.hcr-textarea:focus {
+  outline: none;
+  border-color: #3b82f6;
+  background: white;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.hcr-textarea {
+  resize: vertical;
+  min-height: 120px;
+  font-family: inherit;
+}
+
+/* Search Section */
+.hcr-search-section {
+  background: #f8fafc;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  border: 1px solid #e2e8f0;
+}
+
+.hcr-email-search {
+  display: flex;
+  gap: 1rem;
+  align-items: end;
+}
+
+.hcr-search-input {
+  flex: 1;
+}
+
+/* Results Section */
+.hcr-results-section {
+  background: #f0f9ff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #bae6fd;
+}
+
+.hcr-delete-section {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.hcr-warning-box {
+  background: #fef3c7;
+  border: 1px solid #f59e0b;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.hcr-warning-icon {
+  font-size: 1.2rem;
+  margin-top: 0.1rem;
+}
+
+.hcr-warning-box p {
+  margin: 0;
+  color: #92400e;
+  font-weight: 500;
+}
+
+/* Buttons */
+.hcr-submit-button,
+.hcr-search-button,
+.hcr-delete-button {
+  padding: 0.875rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  text-transform: none;
+}
+
+.hcr-submit-button {
+  background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+  color: white;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+}
+
+.hcr-submit-button:hover {
+  background: linear-gradient(135deg, #047857 0%, #059669 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 15px rgba(5, 150, 105, 0.3);
+}
+
+.hcr-search-button {
+  background: linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%);
+  color: white;
+  white-space: nowrap;
+}
+
+.hcr-search-button:hover {
+  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+}
+
+.hcr-delete-button {
+  background: linear-gradient(135deg, #dc2626 0%, #ef4444 100%);
+  color: white;
+}
+
+.hcr-delete-button:hover {
+  background: linear-gradient(135deg, #b91c1c 0%, #dc2626 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 15px rgba(220, 38, 38, 0.3);
+}
+
+.hcr-button-icon {
+  font-size: 1.1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hcr-main-content {
+    padding: 1rem;
+  }
+
+  .hcr-form-container {
+    padding: 1.5rem;
+  }
+
+  .hcr-form-row {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .hcr-email-search {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hcr-tab-navigation {
+    flex-direction: column;
+  }
+
+  .hcr-title {
+    font-size: 2rem;
+  }
+
+  .hcr-header-content {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hcr-title {
+    font-size: 1.75rem;
+  }
+
+  .hcr-form-container {
+    padding: 1rem;
+  }
+
+  .hcr-submit-button,
+  .hcr-search-button,
+  .hcr-delete-button {
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+  }
+}
+
+/* Loading States */
+.hcr-input:disabled,
+.hcr-select:disabled,
+.hcr-textarea:disabled {
+  background: #f3f4f6;
+  color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.hcr-submit-button:disabled,
+.hcr-search-button:disabled,
+.hcr-delete-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none !important;
+}
+
+/* Accessibility */
+.hcr-input:focus-visible,
+.hcr-select:focus-visible,
+.hcr-textarea:focus-visible,
+.hcr-submit-button:focus-visible,
+.hcr-search-button:focus-visible,
+.hcr-delete-button:focus-visible,
+.hcr-tab-button:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+/* Print Styles */
+@media print {
+  .hcr-remainder-container {
+    background: white;
+  }
+
+  .hcr-header {
+    background: #1e40af;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+
+  .hcr-tab-navigation,
+  .hcr-submit-button,
+  .hcr-search-button,
+  .hcr-delete-button {
+    display: none;
+  }
+}
