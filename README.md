@@ -1,7 +1,7 @@
 # HealthAxis – AI Healthcare Platform
 
-**Live Demo:** [https://healthaxis-ojy8.onrender.com/](https://healthaxis-ojy8.onrender.com/)  
-**GitHub Repository:** [https://github.com/eswarsainandan04/HealthAxis-AI-Healthcare](https://github.com/eswarsainandan04/HealthAxis-AI-Healthcare)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)](https://healthaxis-ojy8.onrender.com/) 
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/eswarsainandan04/HealthAxis-AI-Healthcare)
 
 ---
 
@@ -28,7 +28,6 @@ HealthAxis is an AI-driven healthcare platform that provides personalized medica
    - Provides a general summary of the platform and services available.
 
 2. **Healthcare Services**
-
    - **Medical Search**: Search from **200,000+ medicines** stored in SQLite database.  
    - **Disease Prediction**: Enter symptoms to predict potential diseases using a **machine learning model** and receive tips.  
    - **Report Analysis**: Upload blood reports for **statistical analysis and visualizations** using Gemini API.
@@ -58,39 +57,19 @@ Make sure you have the following installed:
 
 ---
 
-### 1. Frontend – React
 
-1. Navigate to the React frontend folder:
-```bash
-cd reactjs
-
-
-## 🖥️ Step-by-Step Instructions
-
-### 1. Frontend - React
 
 ```bash
 cd reactjs
-npm install    # Run only once
-npm start      # Start the React frontend
-
-
-### 1. Start the Frontend
-
-Navigate to the `reactjs` folder and start the React development server:
-
-```bash
-cd ReactJS
-
-npm install   # Only required for the first time
+npm install    # Only required once
 npm start
 
+
 cd python-flask
+pip install -r requirements.txt
 
-pip install requirements.txt
-
-python database.py
-python chat.py
-python analysis.py
-python disped.py
-python remainder.py
+python database.py      # Setup database
+python chat.py          # Start chatbot service
+python analysis.py      # Run analysis engine
+python disped.py        # Start data display service
+python remainder.py     # Start reminder service
