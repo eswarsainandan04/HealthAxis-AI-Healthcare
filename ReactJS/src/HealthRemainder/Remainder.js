@@ -6,6 +6,7 @@ import "./Remainder.css"
 const EMAILJS_SERVICE_ID = "service_rdnldcj"
 const EMAILJS_TEMPLATE_ID = "template_a6vpfw2"
 const EMAILJS_PUBLIC_KEY = "lX0f8x6FUdQGYjY1e"
+
 const EMAILJS_API_URL = "https://api.emailjs.com/api/v1.0/email/send"
 
 const Remainder = () => {
